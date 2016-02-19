@@ -1,16 +1,26 @@
 {
-  "manifest_version": 2,
+  "name": "Hyperlink-text",
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
   "version": "1.0",
+  "description": "This is a custom built extension for SE project. This extension identifies figure text and allows the user to click the link to pop up the image.",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
 
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+      "default_title": "Hyperlink-text",
+
+      "default_icon": "icon.png"
   },
-  "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+
+  "content_scripts" : [
+    {
+      "matches" : ["http://*/*", "https://*/*"],
+      "js" : ["findtext_contentscript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+
+  "manifest_version": 2
 }
