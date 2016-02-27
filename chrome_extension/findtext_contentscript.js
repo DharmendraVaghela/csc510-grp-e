@@ -2,8 +2,7 @@ var arrayOfNumbers = [];
 var hash = {};
 //alert("hi");
 var regex =  /\w*[figure|Fig.|fig][ ][0-9]/gi;
-//var regex3 = /((https|http)?:\/\/.*\.(?:png|jpg))/i;
-//var regex4 = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
+
 newBody = document.body.innerHTML;
 var i = 0;
 do
@@ -15,38 +14,27 @@ do
 }
 while (temp)
 
+var myArray=new Array(100);
 
-input_content=newBody;
-var matches = [];
+for (i=0; i <100; i++)
+    myArray[i]=new Array(2);
 
-input_content.replace(/[^<]*(<a href="([^"]+)">([^<]+)<\/a>)/g, function () {
-    matches.push(Array.prototype.slice.call(arguments, 1, 4));
-});
+var images = document.getElementsByTagName("img");
 
-alert(matches.join("\n"));
+for(var i=0; i < images.length; i++){
 
-
-/*
-reg = new RegExp(
-    "[\\w/.]*(jpg|gif|png)(\\?[\\w=&]*)?",
-    "gi");
-*/
-/*
-reg = new RegExp(
-    "/([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))",
-    "gi");
-var result;
-var images = [];
-while ((result = reg.exec(newBody)) !== null) {
-    var res0 = result[0];
-    images.push(res0);
+    myArray[i][0]= images[i].alt;
+    myArray[i][1]= images[i].src;  
 }
-*/
-//alert(images.join("\n"))
-//alert(arrayOfNumbers.join("\n"));
+alert(myArray);
 
 for (var i = 0; i < arrayOfNumbers.length; i++)
 {
-    newBody = newBody.replace(arrayOfNumbers[i], "<a href='http://www.google.com'>" + arrayOfNumbers[i] + "</a>");
+    for(var j = 0; j < images.length; j++){
+        if(images[j].alt.indexOf(arrayOfNumbers[i])>-1)
+        {
+            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">" + arrayOfNumbers[i] + "</a>");
+        }
+    }
 }
 document.body.innerHTML = newBody;
