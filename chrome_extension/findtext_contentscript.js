@@ -1,6 +1,5 @@
 var arrayOfNumbers = [];
-var hash = {};
-//alert("hi");
+
 var regex =  /\w*[figure|Fig.|fig][ ][0-9]/gi;
 
 newBody = document.body.innerHTML;
@@ -21,20 +20,24 @@ for (i=0; i <100; i++)
 
 var images = document.getElementsByTagName("img");
 
-for(var i=0; i < images.length; i++){
-
-    myArray[i][0]= images[i].alt;
-    myArray[i][1]= images[i].src;  
+function ShowImage(id)
+{
+    var img = document.getElementById(id);
+    img.style.display = "block";
 }
-alert(myArray);
+function HideImage(id)
+{
+    document.getElementById(id).style.display = "none";
+}
 
 for (var i = 0; i < arrayOfNumbers.length; i++)
 {
     for(var j = 0; j < images.length; j++){
         if(images[j].alt.indexOf(arrayOfNumbers[i])>-1)
         {
-            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">" + arrayOfNumbers[i] + "</a>");
+            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">"+ arrayOfNumbers[i] + "</a>");
         }
     }
 }
+
 document.body.innerHTML = newBody;
