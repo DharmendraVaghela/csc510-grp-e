@@ -20,11 +20,12 @@ for (i=0; i <100; i++)
 
 var images = document.getElementsByTagName("img");
 
-function ShowImage(id)
+function ShowImage(img)
 {
-    var img = document.getElementById(id);
+    //var img = document.getElementById(id);
     img.style.display = "block";
 }
+
 function HideImage(id)
 {
     document.getElementById(id).style.display = "none";
@@ -34,8 +35,11 @@ for (var i = 0; i < arrayOfNumbers.length; i++)
 {
     for(var j = 0; j < images.length; j++){
         if(images[j].alt.indexOf(arrayOfNumbers[i])>-1)
-        {
-            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">"+ arrayOfNumbers[i] + "</a>");
+        {   
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover='"+images[j]+".style.display=block'"+">"+ arrayOfNumbers[i] + "</a>");
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover="+"'ShowImage("+images[j].id+")'"+">"+ arrayOfNumbers[i] + "</a>");
+            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"target='_blank'"+" "+"onClick=window.open("+images[j].src+")>"+ arrayOfNumbers[i] + "</a>");
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">"+ arrayOfNumbers[i] + "</a>");
         }
     }
 }
