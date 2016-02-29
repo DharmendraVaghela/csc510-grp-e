@@ -1,0 +1,49 @@
+<!-- <aj/> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<style>
+#container {
+    height: 2500px;
+}
+#sidebar {
+	width: 80px;
+    height: 400px;
+    float: left;
+    border-radius: 25px;
+    background: #FAAC58;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+</style>
+
+</head>
+<body>
+
+<div id="container">
+    <div id="sidebar"></div>
+</div>
+<script>
+$sidebar = $("#sidebar");
+$window = $(window);
+var sidebarOffset = $sidebar.offset();
+ 
+$window.scroll(function () {
+    if ($window.scrollTop()>sidebarOffset.top) {
+        $sidebar.stop().animate({
+            marginTop: $window.scrollTop() - sidebarOffset.top
+			
+        });
+    } else {
+        $sidebar.stop().animate({
+            marginTop: 0
+        });
+    }
+});
+</script>
+
+</body>
+</html>
