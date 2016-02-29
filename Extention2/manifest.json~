@@ -4,7 +4,10 @@
 "description" : "Image plugin for sync images",
 "short_name": "DV",
 "version": "1.0",
-
+"background": {
+        "page": "background.html",
+        "persistent": false
+    },
 "page_action":{
 	"default_icon" :"icon.png",
 	"default_popup" : "popup.html",
