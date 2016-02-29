@@ -1,0 +1,95 @@
+<html>
+ 
+<head>
+    <title>Image Collector extension</title>
+    <link rel="stylesheet" type="text/css" href="./options.css" />
+    <script type="text/javascript" src="./prototype.js"></script>
+    <script type="text/javascript" src="./utils.js"></script>
+    <script type="text/javascript" src="./options.js"></script>
+</head>
+ 
+<body>
+ 
+ 
+    <div class="title_pane">
+        <img src="./icon1.png" />
+        <div class="title">Image Bundle Options</div>
+        <br style="clear: both;" />
+        <div id="optWelcome"></div>
+    </div>
+ 
+    <div class="section_pane">
+        <div class="section_title"><span id="optFilter"></span></div>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <span id="optFilterSize"></span>:
+                    <span id="optFilterSizeWidth"></span>
+                    <select id="filter_size_width">
+                        <option value="0">0</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="500">500</option>
+                        <option value="750">750</option>
+                        <option value="1000">1000</option>
+                    </select>
+                    <span id="optFilterSizeHeight"></span>
+                    <select id="filter_size_height">
+                        <option value="0">0</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="500">500</option>
+                        <option value="750">750</option>
+                        <option value="1000">1000</option>
+                    </select>
+                    <button id="filter_size_save"></button>
+                    <span id="filter_size_result"></span>
+                    <div class="description" id="optFilterSizeDescription"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="optFilterPriorityLinkHref"></span>
+                    <div class="description" id="optFilterPriorityLinkHrefDescription"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+ 
+ 
+    <div class="section_pane">
+        <div class="section_title"><span id="optPreview"></span></div>
+        <table>
+            <tr>
+                <td>
+                    <span id="optPreviewLocation"></span>
+                    <select id="preview_position">
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+    <div class="section_pane">
+        <div class="section_title"><span id="optHoverZoom"></span></div>
+        <table>
+            <tr>
+                <td class="checkbox_col">
+                    <input type="checkbox" id="dont_hover_zoom" />
+                </td>
+                <td>
+                    <span id="optDontHoverZoom"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+ 
+</body>
+ 
+</html>
