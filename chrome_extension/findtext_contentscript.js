@@ -1,6 +1,7 @@
 var arrayOfNumbers = [];
-alert("hi");
-var regex =  /\d*[/-]*[0-9][0-9][0-9][/ -]*[0-9][0-9][0-9][/ -]*[0-9][0-9][0-9][0-9][ ]*/g;
+
+var regex =  /\w*[figure|Fig.|fig][ ][0-9]/gi;
+
 newBody = document.body.innerHTML;
 var i = 0;
 do
@@ -11,8 +12,36 @@ do
     i++
 }
 while (temp)
+
+var myArray=new Array(100);
+
+for (i=0; i <100; i++)
+    myArray[i]=new Array(2);
+
+var images = document.getElementsByTagName("img");
+
+function ShowImage(img)
+{
+    //var img = document.getElementById(id);
+    img.style.display = "block";
+}
+
+function HideImage(id)
+{
+    document.getElementById(id).style.display = "none";
+}
+
 for (var i = 0; i < arrayOfNumbers.length; i++)
 {
-    newBody = newBody.replace(arrayOfNumbers[i], "<a href='http://www.google.com'>" + arrayOfNumbers[i] + "</a>");
+    for(var j = 0; j < images.length; j++){
+        if(images[j].alt.indexOf(arrayOfNumbers[i])>-1)
+        {   
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover='"+images[j]+".style.display=block'"+">"+ arrayOfNumbers[i] + "</a>");
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover="+"'ShowImage("+images[j].id+")'"+">"+ arrayOfNumbers[i] + "</a>");
+            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"target='_blank'"+" "+"onClick=window.open("+images[j].src+")>"+ arrayOfNumbers[i] + "</a>");
+            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">"+ arrayOfNumbers[i] + "</a>");
+        }
+    }
 }
+
 document.body.innerHTML = newBody;
