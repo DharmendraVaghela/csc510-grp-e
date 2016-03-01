@@ -1,0 +1,32 @@
+{
+
+
+    "manifest_version": 2,
+    "name": "Image Bundler",
+    "short_name": "DV",
+    "description": "Image Sidebar",
+    "version": "1.0",
+
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+    "page_action": {
+       
+        "default_popup": "popup.html"
+    },
+"options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "contextMenus",
+        "bookmarks"
+    ],
+    "optional_permissions": [
+        "notifications",
+        "downloads"
+    ]
+ 
+   
+}
