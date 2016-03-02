@@ -22,4 +22,6 @@ The “alt” value of the “img” tag associated with each image is stored in a map. 
 
 2. [Contributor's page](https://github.com/DharmendraVaghela/csc510-grp-e/graphs/contributors)
 
-3. [Milestone page](https://github.com/DharmendraVaghela/csc510-grp-e/milestones) 
+3. [Sample Telemetry Output Log](https://github.com/DharmendraVaghela/csc510-grp-e/blob/master/Report/chrome_console.log)
+
+4. [Milestone page](https://github.com/DharmendraVaghela/csc510-grp-e/milestones) 
