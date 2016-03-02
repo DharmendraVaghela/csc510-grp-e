@@ -1,47 +1,71 @@
-var arrayOfNumbers = [];
+var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+console.log(newURL);
+console.time();
 
-var regex =  /\w*[figure|Fig.|fig][ ][0-9]/gi;
+var array = [];
+var hash = new Object();
+
+var regex =  /(fig|figure|fig.)[\s][0-9]/gi;
 
 newBody = document.body.innerHTML;
-var i = 0;
-do
-{
-    temp = regex.exec(newBody);
-    if (temp != null)
-        arrayOfNumbers[i] = temp;
-    i++
+
+array = newBody.toString().match(regex);
+
+var arrayOfWords=[];
+for (var i = 0; i < array.length; i++)
+{ 
+    if(arrayOfWords.indexOf(array[i])<0){
+        arrayOfWords.push(array[i].toString());
+    }
 }
-while (temp)
-
-var myArray=new Array(100);
-
-for (i=0; i <100; i++)
-    myArray[i]=new Array(2);
+console.log(arrayOfWords);
 
 var images = document.getElementsByTagName("img");
 
-function ShowImage(img)
+for (var i = 0; i < arrayOfWords.length; i++)
 {
-    //var img = document.getElementById(id);
-    img.style.display = "block";
-}
-
-function HideImage(id)
-{
-    document.getElementById(id).style.display = "none";
-}
-
-for (var i = 0; i < arrayOfNumbers.length; i++)
-{
-    for(var j = 0; j < images.length; j++){
-        if(images[j].alt.indexOf(arrayOfNumbers[i])>-1)
-        {   
-            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover='"+images[j]+".style.display=block'"+">"+ arrayOfNumbers[i] + "</a>");
-            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"onmouseover="+"'ShowImage("+images[j].id+")'"+">"+ arrayOfNumbers[i] + "</a>");
-            newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+" "+"target='_blank'"+" "+"onClick=window.open("+images[j].src+")>"+ arrayOfNumbers[i] + "</a>");
-            //newBody = newBody.replace(arrayOfNumbers[i], "<a href="+images[j].src+">"+ arrayOfNumbers[i] + "</a>");
+    for(var j = 0; j < images.length; j++)
+    {
+        //var exp = /\d+/gi;
+        //var num = arrayOfWords[i].toString().match(exp)[0];
+        if(images[j].alt.indexOf(arrayOfWords[i])>-1)
+        {
+            if(images[j].src!=undefined){
+                hash[arrayOfWords[i]] = images[j].src;
+                alert(arrayOfWords[i]);
+                alert(hash[arrayOfWords[i]]);
+            }
         }
     }
+}
+
+console.log(hash);
+
+var css = 'a>div { display: none; } a:hover>div { display: block; }';
+head = document.head || document.getElementsByTagName('head')[0],
+style = document.createElement('style');
+style.type = 'text/css';
+if (style.styleSheet){
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
+
+document.head.appendChild(style);
+
+
+for (var i = 0; i < arrayOfWords.length; i++)
+{    
+    var img = hash[arrayOfWords[i]];
+        if(img != undefined)
+        {
+            //var rep = "<a href="+img+">"+"<div><img src="+img+">"+"</img>"+"</div>"+ arrayOfWords[i] + "</a>";
+            var rep = "<a href="+img+" "+"target='_blank'"+" "+"onClick=window.open("+img+")>"+ arrayOfWords[i] + "</a>";
+            var r = new RegExp(arrayOfWords[i], 'gi');
+            newBody = newBody.replace(r, rep);
+            console.log(arrayOfWords[i]);
+            console.log(rep);
+        }
 }
 
 document.body.innerHTML = newBody;
