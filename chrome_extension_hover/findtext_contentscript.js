@@ -32,14 +32,14 @@ for (var i = 0; i < arrayOfWords.length; i++)
         {
             if(images[j].src!=undefined){
                 hash[arrayOfWords[i]] = images[j].src;
-                //alert(hash[arrayOfWords[i]]);
+                alert(arrayOfWords[i]);
+                alert(hash[arrayOfWords[i]]);
             }
         }
     }
 }
 
 console.log(hash);
-//var anchors = document.getElementsByTagName("a");
 
 var css = 'a>div { display: none; } a:hover>div { display: block; }';
 head = document.head || document.getElementsByTagName('head')[0],
@@ -53,13 +53,15 @@ if (style.styleSheet){
 
 document.head.appendChild(style);
 
+
 for (var i = 0; i < arrayOfWords.length; i++)
 {    
     var img = hash[arrayOfWords[i]];
         if(img != undefined)
         {
             var rep = "<a href="+img+">"+"<div><img src="+img+">"+"</img>"+"</div>"+ arrayOfWords[i] + "</a>";
-            newBody = newBody.replace(arrayOfWords[i], rep);
+            var r = new RegExp(arrayOfWords[i], 'gi');
+            newBody = newBody.replace(r, rep);
             console.log(arrayOfWords[i]);
             console.log(rep);
         }
