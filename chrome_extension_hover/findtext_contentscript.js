@@ -26,8 +26,6 @@ for (var i = 0; i < arrayOfWords.length; i++)
 {
     for(var j = 0; j < images.length; j++)
     {
-        //var exp = /\d+/gi;
-        //var num = arrayOfWords[i].toString().match(exp)[0];
         if(images[j].alt.indexOf(arrayOfWords[i])>-1)
         {
             if(images[j].src!=undefined){
