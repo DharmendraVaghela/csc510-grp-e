@@ -5,12 +5,12 @@ console.time();
 var array = [];
 var hash = new Object();
 
-var regex =  /(fig|figure|fig.)[\s][0-9]/gi;
+var regex =  /(fig|figure|fig.|Fig.)[\s][0-9]/gi;
 
 newBody = document.body.innerHTML;
 
 array = newBody.toString().match(regex);
-
+//console.log(array)
 var arrayOfWords=[];
 for (var i = 0; i < array.length; i++)
 { 
@@ -38,6 +38,28 @@ for (var i = 0; i < arrayOfWords.length; i++)
         }
     }
 }
+
+var keys = Object.keys(hash);
+
+console.log(keys);
+
+for(var i = 0; i < keys.length; i++)
+    {
+        var exp = /\d+/gi;
+        var num = keys[i].toString().match(exp)[0];
+
+        for(var j = 0; j < arrayOfWords.length; j++)
+        {
+            var exp1 = /\d+/gi;
+            var num1 = arrayOfWords[j].toString().match(exp1)[0];
+
+            if(num == num1){
+
+                hash[arrayOfWords[j]] = hash[keys[i]];
+            }
+        }
+
+    }
 
 console.log(hash);
 
