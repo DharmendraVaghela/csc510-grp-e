@@ -42,7 +42,7 @@ for (var i = 0; i < arrayOfWords.length; i++)
 console.log(hash);
 
 //var css = 'a>div { display: none; } a:hover>div { display: block; left: 123px; top: 56px;}';  
-var css = ' .thumbnail img{ border: 1px solid white; margin: 0 0px 0px 0; } .thumbnail:hover{ position: absolute; background-color: transparent; } .thumbnail:hover img{ border: 1px solid blue; } .thumbnail span{ position: absolute; padding: 0px; left: -1000px; border: 1px; visibility: hidden; color: black; text-decoration: none; } .thumbnail span img{ border-width: 0; padding: 0px; } .thumbnail:hover span{ visibility: visible; top: 0; left: -230px; z-index: 100; }';  
+var css = ' .thumbnail img{ border: 1px solid white; margin: 0 0px 0px 0; } .thumbnail:hover{ position: relative; background-color: transparent; } .thumbnail:hover img{ border: 1px solid blue; } .thumbnail span{ position: absolute; padding: 0px; left: -1000px; border: 1px; visibility: hidden; color: black; text-decoration: none; } .thumbnail span img{ border-width: 0; padding: 0px; } .thumbnail:hover span{ visibility: visible; top: 0; left: -230px; z-index: 100; }';  
  
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
