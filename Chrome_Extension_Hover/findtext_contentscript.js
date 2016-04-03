@@ -5,7 +5,7 @@ console.time();
 var array = [];
 var hash = new Object();
 
-var regex =  /(fig|figure|fig.|Fig.)[\s][0-9]/gi;
+var regex =  /(fig|figure|fig.|Fig.|image|img|img.)[\s][0-9]/gi;
 
 newBody = document.body.innerHTML;
 
@@ -83,7 +83,7 @@ for (var i = 0; i < arrayOfWords.length; i++)
         if(img != undefined)
         {
             //var rep = "<a href="+img+">"+"<div><img src="+img+">"+"</img>"+"</div>"+ arrayOfWords[i] + "</a>";
-            var rep = "<a class=thumbnail href="+'#thumb'+">"+ arrayOfWords[i]+"<span><img src="+img+">"+"</img>" + "</span></a>";
+            var rep = "<a class=thumbnail href="+img+">"+ arrayOfWords[i]+"<span><img src="+img+">"+"</img>" + "</span></a>";
             //var rep = "<a class=thumbnail href="+'#thumb'+">"+ arrayOfWords[i]+"<span><img src="+img+">"+"</img>" + "</span></a>";
             var r = new RegExp(arrayOfWords[i], 'gi');
             newBody = newBody.replace(r, rep);
