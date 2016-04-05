@@ -3,6 +3,9 @@ if (typeof CS == "undefined") {
         this.initialize();
     };
 
+    var posY;//document.documentElement.scrollTop;
+    var posX;
+
     CS.prototype = {
         initialize: function() {
             this.targetImageUrls = new Array();
@@ -151,7 +154,7 @@ if (typeof CS == "undefined") {
                 panel = document.createElement("div");
                 panel.id = "ics_preview_panel";
                 panel.style.position = "fixed";
-                panel.style.width = "70px";
+                panel.style.width = "200px";
                 
                 // changes for custom position of pan
                 
@@ -168,11 +171,11 @@ if (typeof CS == "undefined") {
                     panel.style.right = 0;
                 }*/
                 
-                panel.style.bottom = 0;
+                panel.style.bottom = "150px";
                 panel.style.right = 0;
                 
                 panel.style.overflow = "auto";
-                panel.style.paddingBottom = "5px";
+                panel.style.paddingBottom = "50px";
             }
             return panel;
         },
@@ -181,19 +184,41 @@ if (typeof CS == "undefined") {
             for (var i = 0; i < images.length; i++) {
                 var img = document.createElement("img");
                 img.src = images[i].url;
-                img.style.width = "45px";
-                img.style.marginLeft = "5px";
+                img.style.width = "80px";
+                img.style.marginLeft = "100px";
                 img.style.marginRight = "5px";
                 img.style.marginTop = "5px";
                 img.style.cursor = "pointer";
                 img.dataset.ics = "true";
                 
+                img.onmouseover = (function(image) {
+                    return function(evt) {
+                        var pos = image.pos;
+                        posY = document.body.scrollTop;
+                        window.scrollTo(-1, pos);
+                        //img.style.width = "150px";
+                        //img.style.marginLeft = "5px";
+                        //img.style.marginRight = "5px";
+                        //img.style.marginTop = "5px";
+                    };
+                })(images[i]);
+
+                img.onmouseout = (function(image) {
+                    return function(evt) {
+                        window.scrollTo(-1, posY);
+                        img.style.width = "50px";
+                        img.style.marginLeft = "100px";
+                        img.style.marginRight = "5px";
+                        img.style.marginTop = "5px";
+                    };
+                })(images[i]);
                 
                 // change here for implementing hover
                 img.onclick = (function(image) {
                     return function(evt) {
                         var pos = image.pos;
                         window.scrollTo(-1, pos);
+                        img.style.width = "150px";
                     };
                 })(images[i]);
                 
