@@ -190,7 +190,7 @@ if (typeof CS == "undefined") {
                 var img = document.createElement("img");
                 img.src = images[i].url;
                 img.style.width = "85px";
-                img.style.marginLeft = "100px";
+                img.style.marginLeft = "90px";
                 img.style.marginRight = "10px";
                 img.style.marginTop = "10px";
                 img.style.cursor = "pointer";
@@ -203,10 +203,6 @@ if (typeof CS == "undefined") {
                         var pos = image.pos;
                         posY = document.body.scrollTop;
                         window.scrollTo(-1, pos-100);
-                        //img.style.width = "150px";
-                        //img.style.marginLeft = "5px";
-                        //img.style.marginRight = "5px";
-                        //img.style.marginTop = "5px";
                     };
                 })(images[i]);
 
@@ -215,10 +211,6 @@ if (typeof CS == "undefined") {
                     return function(evt) {
                         console.log(String("hover away from image"+ image));
                         window.scrollTo(-1, posY);
-                        //img.style.width = "50px";
-                        //img.style.marginLeft = "100px";
-                        //img.style.marginRight = "5px";
-                        //img.style.marginTop = "5px";
                     };
                 })(images[i]);
                 
