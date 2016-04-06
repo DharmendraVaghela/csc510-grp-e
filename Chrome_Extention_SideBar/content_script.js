@@ -196,7 +196,7 @@ if (typeof CS == "undefined") {
                     return function(evt) {
                         var pos = image.pos;
                         posY = document.body.scrollTop;
-                        window.scrollTo(-1, pos);
+                        window.scrollTo(-1, pos-100);
                         //img.style.width = "150px";
                         //img.style.marginLeft = "5px";
                         //img.style.marginRight = "5px";
