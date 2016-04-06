@@ -26,8 +26,7 @@ for (var i = 0; i < arrayOfWords.length; i++)
 {
     for(var j = 0; j < images.length; j++)
     {
-        //var exp = /\d+/gi;
-        //var num = arrayOfWords[i].toString().match(exp)[0];
+
         if(images[j].alt.indexOf(arrayOfWords[i])>-1)
         {
             if(images[j].src!=undefined){
@@ -63,7 +62,6 @@ for(var i = 0; i < keys.length; i++)
 
 console.log(hash);
 
-//CSS for showing image on hovering
 //var css = 'a>div { display: none; } a:hover>div { display: block; left: 123px; top: 56px;}';  
 var css = ' .thumbnail img{ border: 1px solid white; margin: 0 0px 0px 0; } .thumbnail:hover{ position: relative; background-color: transparent; } .thumbnail:hover img{ border: 1px solid blue; } .thumbnail span{ position: absolute; padding: 0px; left: -1000px; border: 1px; visibility: hidden; color: black; text-decoration: none; } .thumbnail span img{ border-width: 0; padding: 0px; } .thumbnail:hover span{ visibility: visible; top: 0; left: -230px; z-index: 100; }';  
  
@@ -93,4 +91,5 @@ for (var i = 0; i < arrayOfWords.length; i++)
         }
 }
 
+console.time();
 document.body.innerHTML = newBody;

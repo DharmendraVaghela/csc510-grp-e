@@ -1,8 +1,12 @@
+var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+console.log(String(newURL));
+console.time();
+
 if (typeof CS == "undefined") {
     CS = function() {
         this.initialize();
     };
-
+    
     var posY;//document.documentElement.scrollTop;
     var posX;
 
@@ -181,6 +185,7 @@ if (typeof CS == "undefined") {
         },
         createPreviewImages: function(images, panel, tabId) {
             var failedImageCount = 0;
+            console.log(images);
             for (var i = 0; i < images.length; i++) {
                 var img = document.createElement("img");
                 img.src = images[i].url;
@@ -194,6 +199,7 @@ if (typeof CS == "undefined") {
                 // hover over image to get to the location
                 img.onmouseover = (function(image) {
                     return function(evt) {
+                        console.log(String("hover over image"+ image));
                         var pos = image.pos;
                         posY = document.body.scrollTop;
                         window.scrollTo(-1, pos-100);
@@ -207,6 +213,7 @@ if (typeof CS == "undefined") {
                 // to return back to original position
                 img.onmouseout = (function(image) {
                     return function(evt) {
+                        console.log(String("hover away from image"+ image));
                         window.scrollTo(-1, posY);
                         //img.style.width = "50px";
                         //img.style.marginLeft = "100px";
@@ -218,8 +225,9 @@ if (typeof CS == "undefined") {
                 // change here for implementing hover
                 img.onclick = (function(image) {
                     return function(evt) {
+                        console.log(String("Clicked on image"+ image));
                         var pos = image.pos;
-                        window.scrollTo(-1, pos);
+                        window.scrollTo(-1, pos-100);
                         img.style.width = "150px";
                     };
                 })(images[i]);
