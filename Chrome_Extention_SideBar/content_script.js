@@ -185,9 +185,10 @@ if (typeof CS == "undefined") {
         },
         createPreviewImages: function(images, panel, tabId) {
             var failedImageCount = 0;
-            console.log(images);
+            
             for (var i = 0; i < images.length; i++) {
                 var img = document.createElement("img");
+                console.log(images[i].url);
                 img.src = images[i].url;
                 img.style.width = "85px";
                 img.style.marginLeft = "90px";
@@ -199,7 +200,7 @@ if (typeof CS == "undefined") {
                 // hover over image to get to the location
                 img.onmouseover = (function(image) {
                     return function(evt) {
-                        console.log(String("hover over image"+ image));
+                        console.log(String("hover over image"+ image.url));
                         var pos = image.pos;
                         posY = document.body.scrollTop;
                         window.scrollTo(-1, pos-100);
@@ -209,7 +210,7 @@ if (typeof CS == "undefined") {
                 // to return back to original position
                 img.onmouseout = (function(image) {
                     return function(evt) {
-                        console.log(String("hover away from image"+ image));
+                        console.log(String("hover away from image"+ image.url));
                         window.scrollTo(-1, posY);
                     };
                 })(images[i]);
@@ -217,7 +218,7 @@ if (typeof CS == "undefined") {
                 // change here for implementing hover
                 img.onclick = (function(image) {
                     return function(evt) {
-                        console.log(String("Clicked on image"+ image));
+                        console.log(String("Clicked on image"+ image.url));
                         var pos = image.pos;
                         window.scrollTo(-1, pos-100);
                         img.style.width = "150px";
