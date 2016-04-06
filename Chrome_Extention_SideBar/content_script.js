@@ -1,3 +1,4 @@
+console.log("--------------------------------------------------------------------------------------------------");
 var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
 console.log(String(newURL));
 console.time();
@@ -174,8 +175,8 @@ if (typeof CS == "undefined") {
                 if (position.indexOf("right") != -1) {
                     panel.style.right = 0;
                 }*/
-                
-                panel.style.bottom = "150px";
+                panel.style.top = "130px";
+                panel.style.bottom = "130px";
                 panel.style.right = 0;
                 
                 panel.style.overflow = "auto";
@@ -191,7 +192,7 @@ if (typeof CS == "undefined") {
                 console.log(images[i].url);
                 img.src = images[i].url;
                 img.style.width = "85px";
-                img.style.marginLeft = "90px";
+                img.style.marginLeft = "100px";
                 img.style.marginRight = "10px";
                 img.style.marginTop = "10px";
                 img.style.cursor = "pointer";
@@ -200,7 +201,7 @@ if (typeof CS == "undefined") {
                 // hover over image to get to the location
                 img.onmouseover = (function(image) {
                     return function(evt) {
-                        console.log(String("hover over image"+ image.url));
+                        console.log(String("Hover over image :"+ image.url));
                         var pos = image.pos;
                         posY = document.body.scrollTop;
                         window.scrollTo(-1, pos-100);
@@ -210,7 +211,7 @@ if (typeof CS == "undefined") {
                 // to return back to original position
                 img.onmouseout = (function(image) {
                     return function(evt) {
-                        console.log(String("hover away from image"+ image.url));
+                        console.log(String("Hover away from image :"+ image.url));
                         window.scrollTo(-1, posY);
                     };
                 })(images[i]);
@@ -218,10 +219,10 @@ if (typeof CS == "undefined") {
                 // change here for implementing hover
                 img.onclick = (function(image) {
                     return function(evt) {
-                        console.log(String("Clicked on image"+ image.url));
+                        console.log(String("Clicked on image :"+ image.url));
                         var pos = image.pos;
                         window.scrollTo(-1, pos-100);
-                        img.style.width = "150px";
+                        //img.style.width = "150px";
                     };
                 })(images[i]);
                 
