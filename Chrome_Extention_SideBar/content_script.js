@@ -154,7 +154,7 @@ if (typeof CS == "undefined") {
                 panel = document.createElement("div");
                 panel.id = "ics_preview_panel";
                 panel.style.position = "fixed";
-                panel.style.width = "200px";
+                panel.style.width = "150px";
                 
                 // changes for custom position of pan
                 
@@ -186,8 +186,8 @@ if (typeof CS == "undefined") {
                 img.src = images[i].url;
                 img.style.width = "80px";
                 img.style.marginLeft = "100px";
-                img.style.marginRight = "5px";
-                img.style.marginTop = "5px";
+                img.style.marginRight = "10px";
+                img.style.marginTop = "10px";
                 img.style.cursor = "pointer";
                 img.dataset.ics = "true";
                 
@@ -206,10 +206,10 @@ if (typeof CS == "undefined") {
                 img.onmouseout = (function(image) {
                     return function(evt) {
                         window.scrollTo(-1, posY);
-                        img.style.width = "50px";
-                        img.style.marginLeft = "100px";
-                        img.style.marginRight = "5px";
-                        img.style.marginTop = "5px";
+                        //img.style.width = "50px";
+                        //img.style.marginLeft = "100px";
+                        //img.style.marginRight = "5px";
+                        //img.style.marginTop = "5px";
                     };
                 })(images[i]);
                 
