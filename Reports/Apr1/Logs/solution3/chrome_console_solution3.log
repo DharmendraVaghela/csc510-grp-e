@@ -1,0 +1,544 @@
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+SW registered
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.sciencedirect.com/science/article/pii/S1074552102002843
+XHR finished loading: GET "https://204774041.log.optimizely.com/event?a=204774041&d=175078151&y=false&…729875&wxhr=true&time=1460070178.355&f=3741194692&g=235765762&cx2=2588e914".
+XHR finished loading: GET "https://204774041.log.optimizely.com/event?a=204774041&d=175078151&y=false&…=true&time=1460070178.712&f=3741194692&g=235765762,3741194692&cx2=8bd95470".
+XHR finished loading: GET "https://204774041.log.optimizely.com/event?a=204774041&d=175078151&y=false&…=true&time=1460070178.727&f=3741194692&g=235765762,3741194692&cx2=ee1571e1".
+XHR finished loading: GET "http://www.sciencedirect.com/science/citedby/rslts/S1074552102002843/hitcount".
+XHR finished loading: GET "http://www.sciencedirect.com/science/frag/S1074552102002843/ed3191c900a4663…1b380379d474e7b35ccb90090645a1f10804c9c3b9c79f8203e8da593f57e22ad04bc/maps".
+XHR finished loading: GET "http://www.sciencedirect.com/science/toc/S1074552102002843/ed3191c900a4663e…c6d781b380379d474e7b35ccb90090645a1f10804c9c3b9c79f8203e8da593f57e22ad04bc".
+XHR finished loading: GET "http://www.sciencedirect.com/science/UserActions/article/rightPane/serial/displayRightPanePanel/citeRelatedArt".
+XHR finished loading: POST "http://www.sciencedirect.com/science/dc/article/all".
+Object {DynamicComponentsResp: Object}
+http://www.sciencedirect.com//science/article/pii/S1074552102002843
+["Figure 1"]
+[]
+Object {}
+XHR finished loading: POST "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S1074552102002843".
+XHR finished loading: GET "http://www.sciencedirect.com/science/frag/S1074552102002843/ed3191c900a4663…81b380379d474e7b35ccb90090645a1f10804c9c3b9c79f8203e8da593f57e22ad04bc/all".
+XHR finished loading: GET "http://www.sciencedirect.com/science/gs/S1074552102002843/1".
+XHR finished loading: GET "http://www.sciencedirect.com/science/mlkt/rslts/S1074552102002843/Art".
+Refused to execute script from 'http://www.info.sciverse.com/add/scripts/analytics.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.
+XHR finished loading: GET "http://sciverse-shindig.elsevier.com/gadgets/makeRequest?refresh=3600&url=h…pec.xml&container=default&bypassSpecCache=1&nocache=1&getFullHeaders=false".
+XHR finished loading: GET "https://204774041.log.optimizely.com/event?a=204774041&d=175078151&y=false&…7729875&wxhr=true&time=1460070189.467&f=3741194692&g=204774042&cx2=326c8e5".
+XHR finished loading: GET "https://204774041.log.optimizely.com/event?a=204774041&d=175078151&y=false&…29875&wxhr=true&time=1460070189.475&f=3741194692&g=3537980671&cx2=6b394cfc".
+XHR finished loading: GET "http://www.sciencedirect.com/science/UserActions/article/centerPane/serial/displayCrossRefLink".
+XHR finished loading: GET "http://sciverse-shindig.elsevier.com/gadgets/makeRequest?refresh=3600&url=h…pec.xml&container=default&bypassSpecCache=1&nocache=1&getFullHeaders=false".
+XHR finished loading: GET "http://www.sciencedirect.com/science/UserActions/article/centerPane/serial/displayCrossRefLink".
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://istqbexamcertification.com/what-is-waterfall-model-advantages-disadvantages-and-when-to-use-it/
+http://istqbexamcertification.com//what-is-waterfall-model-advantages-disadvantages-and-when-to-use-it/
+Uncaught TypeError: Cannot read property 'length' of null
+The deviceorientation event is deprecated on insecure origins, and support will be removed in the future. You should consider switching your application to a secure origin, such as HTTPS. See https://goo.gl/rStTGz for more details.
+XHR finished loading: GET "https://apis.google.com/_/scs/apps-static/_/js/k=oz.plusone.en_GB.w_iGAPAUV…/rt=j/sv=1/d=1/ed=1/rs=AGLTcCMExjDLnZGLCRBa9wzuRZGvj7umCw/cb=gapi.loaded_1".
+XHR finished loading: GET "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_GB.pOO7yrbxBic.…sv=1/d=1/ed=1/am=AQ/rs=AGLTcCP2oT3puUj5majzgvZgAp3l-GJ8UA/cb=gapi.loaded_0".
+XHR finished loading: GET "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_GB.pOO7yrbxBic.…sv=1/d=1/ed=1/am=AQ/rs=AGLTcCP2oT3puUj5majzgvZgAp3l-GJ8UA/cb=gapi.loaded_0".
+XHR finished loading: GET "https://apis.google.com/_/scs/apps-static/_/js/k=oz.plusone.en_GB.w_iGAPAUV…/rt=j/sv=1/d=1/ed=1/rs=AGLTcCMExjDLnZGLCRBa9wzuRZGvj7umCw/cb=gapi.loaded_1".
+XHR finished loading: GET "https://static.xx.fbcdn.net/rsrc.php/v2iaFb4/y_/l/en_US/nL4yPBFccuK.js".
+XHR finished loading: GET "https://static.xx.fbcdn.net/rsrc.php/v2iaFb4/y_/l/en_US/nL4yPBFccuK.js".
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+Array[12]
+Array[6]
+Object
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+SW registered
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+Array[12]
+Array[6]
+Object
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+Navigated to http://www.nature.com/nchembio/journal/v1/n1/full/nchembio0605-13.html
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5", "Fig. 6", "Figure 6"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5", "Figure 6"]
+Object {Figure 1: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg", Figure 2: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif", Figure 3: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg", Figure 4: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif", Figure 5: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnchembio0605-13".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221552-4450%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+Navigated to http://www.nature.com/nchembio/journal/v1/n1/full/nchembio0605-13.html
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5", "Fig. 6", "Figure 6"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5", "Figure 6"]
+Object {Figure 1: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg", Figure 2: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif", Figure 3: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg", Figure 4: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif", Figure 5: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnchembio0605-13".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221552-4450%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+Array[12]
+Array[6]
+Object
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+SW registered
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+GET https://www.google.com/_/chrome/newtab-serviceworker.js net::ERR_FILE_EXISTS
+Navigated to http://www.nature.com/nrg/journal/v4/n8/full/nrg1126.html
+http://www.nature.com//nrg/journal/v4/n8/full/nrg1126.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5"]
+Object {Figure 1: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg", Figure 2: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg", Figure 3: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg", Figure 4: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg", Figure 5: "http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Fig. 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg>Figure 1<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Fig. 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg>Figure 2<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f2.jpg></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Fig. 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg>Figure 3<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Fig. 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg>Figure 4<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f4.jpg></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Fig. 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg>Figure 5<span><img src=http://www.nature.com/nrg/journal/v4/n8/thumbs/nrg1126-f5.jpg></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnrg1126".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221471-0056%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+Array[12]
+Array[6]
+Object
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+SW registered
+Navigated to https://www.google.com/_/chrome/newtab?espv=2&ie=UTF-8
+https://www.google.com//_/chrome/newtab
+Uncaught TypeError: Cannot read property 'length' of null
+GET chrome-search://thumb2/https://portalsp.acs.ncsu.edu/ net::ERR_FAILED
+XHR finished loading: GET "https://www.google.com/async/newtab?async=es_dfp:112026fb589f683e,xid:1,_fmt:json&ei=L6IFV-_tGoXUmAGJnaKgBQ&espv=2&yv=2".
+XHR finished loading: POST "https://plus.google.com/u/0/_/n/gcosuc".
+Navigated to http://www.nature.com/nchembio/journal/v1/n1/full/nchembio0605-13.html
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5", "Fig. 6", "Figure 6"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5", "Figure 6"]
+Object {Figure 1: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg", Figure 2: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif", Figure 3: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg", Figure 4: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif", Figure 5: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnchembio0605-13".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221552-4450%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
+Navigated to http://www.nature.com/nchembio/journal/v1/n1/full/nchembio0605-13.html
+http://www.nature.com//nchembio/journal/v1/n1/full/nchembio0605-13.html
+["Fig. 1", "Figure 1", "Fig. 2", "Figure 2", "Fig. 3", "Figure 3", "Fig. 4", "Figure 4", "Fig. 5", "Figure 5", "Fig. 6", "Figure 6"]
+["Figure 1", "Figure 2", "Figure 3", "Figure 4", "Figure 5", "Figure 6"]
+Object {Figure 1: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg", Figure 2: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif", Figure 3: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg", Figure 4: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif", Figure 5: "http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif"…}
+Fig. 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Fig. 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Figure 1
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg>Figure 1<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F1.jpg></img></span></a>
+Fig. 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Fig. 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Figure 2
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif>Figure 2<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F2.gif></img></span></a>
+Fig. 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Fig. 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Figure 3
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg>Figure 3<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F3.jpg></img></span></a>
+Fig. 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Fig. 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Figure 4
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif>Figure 4<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F4.gif></img></span></a>
+Fig. 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Fig. 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Figure 5
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif>Figure 5<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F5.gif></img></span></a>
+Fig. 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Fig. 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+Figure 6
+<a class=thumbnail href=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif>Figure 6<span><img src=http://www.nature.com/nchembio/journal/v1/n1/thumbs/nchembio0605-13-F6.gif></img></span></a>
+XHR finished loading: GET "http://recommendations.springernature.com/app/view?userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a&doi=10.1038%2Fnchembio0605-13".
+XHR finished loading: GET "http://recommendations.springernature.com/app/recommendations/show?location…ssn%22%3A%221552-4450%22%7D&userId=DE_68be327b-d850-4aa1-9700-8e91950afe5a".
