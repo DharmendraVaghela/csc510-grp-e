@@ -13,7 +13,9 @@
     },
     "page_action": {
        
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_title": "Image Bundler",
+        "default_icon": "icon.png"
     },
 
     "permissions": [
