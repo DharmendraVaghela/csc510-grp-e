@@ -16,7 +16,7 @@
   "content_scripts" : [
     {
       "matches" : ["http://*/*", "https://*/*"],
-      "js" : ["findtext_contentscript.js"],
+      "js" : ["findtext_contentscript_new_tab.js"],
       "run_at" : "document_idle",
       "all_frames" : false
     }
