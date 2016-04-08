@@ -24,5 +24,5 @@ The “alt” value of the “img” tag associated with each image is stored in
 
 3. [Contributor's page](https://github.com/DharmendraVaghela/csc510-grp-e/graphs/contributors)
 
-4. [Sample Telemetry Output Log](https://github.com/DharmendraVaghela/csc510-grp-e/blob/master/Report/chrome_console.log)
+4. [Sample Telemetry Output Log](https://github.com/DharmendraVaghela/csc510-grp-e/tree/master/Reports/Apr1/Logs)
 
